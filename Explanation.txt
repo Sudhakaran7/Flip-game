@@ -1,0 +1,49 @@
+You are playing the following Flip Game with your friend: Given a string that contains only these two characters: + and -, 
+you and your friend take turns to flip two consecutive "++" into "--". The game ends when a person can no longer make a move and therefore the other person will be the winner.
+Write a function to compute all possible states of the string after one valid move.
+
+Input Description:
+A string contains, '+','-' as input.
+
+Output Description:
+Print all possible states of the string after one valid move.
+
+Sample Input:
+++--
+
+Sample Output:
+----
+
+Explanation:
+The given state is '++--' after fisrt flip, the '++'->'--'
+and the flipped state is '----' and no more steps can be proceeded.
+
+Sample Input:
+++++
+
+Sample Output:
+--++ +--+ ++--
+
+Sample Input:
+--++--
+
+Sample Output:
+------
+
+Sample Input:
+++--++
+
+Sample Output:
+----++ ++----
+
+Sample Input:
+++----++
+
+Sample Output:
+------++ ++------
+
+Sample Input:
+++--++++++
+
+Sample Output:
+----++++++ ++----++++ ++--+--+++ ++--++--++ ++--+++--+ ++--++++--
